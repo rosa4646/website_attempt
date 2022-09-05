@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(Oswald-Regular.ttf);
+}
+* {
+    font-family: oswald;
+}
+.heading {
+    background-color: lightpink;
+}
+.header {
+    text-align: center;
+    color: white;
+}
+.rosa-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkmagenta;
+}
+li {
+    float: left;
+}
+.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.ratbar {
+    list-style-type: none;
+    overflow: hidden;
+}
+.desc {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-right: 500px;
+}
