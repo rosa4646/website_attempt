@@ -5,6 +5,9 @@
 * {
     font-family: oswald;
 }
+body {
+    background-color: pink;
+}
 .heading {
     background-color: lightpink;
 }
@@ -12,7 +15,11 @@
     text-align: center;
     color: white;
 }
+.long-desc {
+    text-align: center;
+}
 .rosa-pic {
+    padding-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +30,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkmagenta;
+    background-color: black;
 }
 li {
     float: left;
@@ -32,15 +39,23 @@ li {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
 }
+li a:hover:not(.active) {
+    background-color: magenta;
+}  
 .ratbar {
     list-style-type: none;
     overflow: hidden;
 }
-.desc {
+.desc-black {
     text-align: center;
+    color: black;
+}
+.desc-white {
+    text-align: center;
+    color: white;
 }
 h1 {
     text-align: center;
@@ -51,4 +66,37 @@ h5 {
 h2 {
     text-align: center;
     padding-right: 500px;
+}
+.card-1 {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    border: 50px;
+    background-color: lightpink;
+  }
+.card-2 {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    border: 50px;
+    background-color: lightpink;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
+.container {
+    padding: 2px 16px;
+}
+.rat {
+    text-align: center;
+}
+.cards {
+    padding: 20px;
 }
