@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(Oswald-Regular.ttf);
+}
+* {
+    font-family: oswald;
+}
+body {
+    background-color: rgb(249, 175, 214);
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+.white {
+    text-align: center;
+    color: white;
+}
+.black {
+    text-align: center;
+    color: black;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.heading-buffer {
+    padding-top: 3%;
+}
+.contact-buffer {
+    padding-top: 4%;
+}
+li {
+    float: left;
+}
+li a:hover:not(.active) {
+    background-color: rgb(243, 118, 137);
+}  
+.heading-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    border: 50px;
+    background-color: rgb(243, 137, 153);
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+.contact-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    border: 50px;
+    background-color: rgb(243, 137, 153);
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.heading {
+    text-align: center;
+}
+h1 {
+    color: black;
+}
+h3 {
+    color: white;
+}
