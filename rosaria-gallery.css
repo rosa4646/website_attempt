@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(Oswald-Regular.ttf);
+}
+* {
+    font-family: oswald;
+}
+body {
+    background-color: rgb(249, 175, 214);
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(Oswald-Regular.ttf);
+}
+* {
+    font-family: oswald;
+}
+body {
+    background-color: rgb(249, 175, 214);
+}
+h4 {
+    text-align: center;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: rgb(243, 137, 153);
+} 
+li {
+    float: left;
+}
+.card-1 {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    border: 50px;
+    background-color: rgb(243, 137, 153);
+  }
+.card-2 {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    border: 50px;
+    background-color: rgb(243, 137, 153);
+  }
+.cards {
+    padding: 20px;
+    padding-top: 5%;
+}
+.card-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+.card-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
